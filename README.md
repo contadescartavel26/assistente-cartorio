@@ -20,9 +20,9 @@ O programa cria e mantém as configurações do usuário na mesma pasta do execu
 
 ## Atualizações
 
-O programa consulta automaticamente a última versão publicada no GitHub ao iniciar. Quando houver uma atualização, ele mostra as versões instalada e disponível e oferece o link direto para download.
+O programa consulta automaticamente a última versão publicada no GitHub ao iniciar. Quando houver uma atualização, ele mostra as versões instalada e disponível e oferece a instalação automática.
 
 Também é possível fazer a consulta manual na aba **Config. & Logs**, pelo botão **Verificar atualizações**.
 
-O programa não instala a atualização sozinho: o usuário confirma e baixa o novo executável.
+A partir da versão 2.7.0, basta o usuário confirmar. O programa baixa o novo executável, valida o SHA-256 informado pelo GitHub, fecha a versão anterior, substitui o arquivo e abre novamente já atualizado.
 
